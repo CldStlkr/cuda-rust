@@ -21,7 +21,8 @@
 //! build script probe) builds an NVLink SHARP (NVLS) team whose
 //! mapped VA ranges respond to device-side `multimem.*` instructions with
 //! switch-side reduction and broadcast across every bound GPU. See
-//! `tests/vmm_multicast.rs` and the `nvls_all_reduce` example.
+//! `tests/vmm_multicast.rs` and the `nvls_all_reduce` example
+//! (`cuda-oxide/crates/rustc-codegen-cuda/examples/nvls_all_reduce/`).
 
 use crate::error::{DriverError, IntoResult};
 use cuda_bindings::CUdeviceptr;
